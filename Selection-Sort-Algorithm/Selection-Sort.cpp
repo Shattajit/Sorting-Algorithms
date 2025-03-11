@@ -2,7 +2,7 @@
 using namespace std;
 
 void solve(int tc){
-    cout<<"Hello\n";
+    cout<<"Hello selection\n";
 }
 int main(){
 
