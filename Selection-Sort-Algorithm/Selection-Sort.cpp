@@ -1,6 +1,25 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+    Time complexity: {
+
+          best case: O(n^2) if array is sorted in ascending order
+
+          average case: O(n^2)
+
+          worst case:  O(n^2) if the array is sorted in decreasing order
+    }
+
+    Space complexity: {
+
+        auxiliary space: O(1) because no extra space is used here
+
+        overall with input: O(n) because for the array size which is given
+    }
+
+*/
+
 int find_min(int *ar, int idx, int n){
 
     for(int i=idx+1;i<n;i++){  // it should be idx + 1 becuase the idx position will be filled with the smallest element from the range in {idx, n}..
