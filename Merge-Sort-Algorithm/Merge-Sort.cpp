@@ -5,18 +5,17 @@ using namespace std;
 /*
     Time complexity: {
 
-          best case: O(n^2) if array is sorted in ascending order
+          best case: O(nlogn)
 
-          average case: O(n^2)
+          average case: O(nlogn)
 
-          worst case:  O(n^2) if the array is sorted in decreasing order
+          worst case:  O(nlogn)
     }
 
     Space complexity: {
 
-        auxiliary space: O(1) because no extra space is used here
+        space: O(n) + O(logn)  logn for the stack used in recursion internally
 
-        overall with input: O(n) because for the array size which is given
     }
 
 */
